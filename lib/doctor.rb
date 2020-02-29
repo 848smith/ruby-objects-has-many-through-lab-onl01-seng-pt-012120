@@ -20,6 +20,6 @@ class Doctor
   end
   
   def patients
-    appointments.collect {|app| app.patient}
+    self.appointments.collect {|app| app.patient}
   end
 end
